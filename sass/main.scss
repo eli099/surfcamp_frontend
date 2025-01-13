@@ -1,1 +1,4 @@
-@import "base/base"
+@import "base/variables";
+// ! ^ above ^ needs to be at the top to make it available to all the following files (or error will show)
+
+@import "base/base";
