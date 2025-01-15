@@ -1,4 +1,7 @@
+// @ very top because will use in the base file
+@import "base/mixins";
 @import "base/variables";
 // ! ^ above ^ needs to be at the top to make it available to all the following files (or error will show)
-
+@import "base/typography";
+// ! needs to be ^ above ^ base
 @import "base/base";
