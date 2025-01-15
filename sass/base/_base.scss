@@ -49,6 +49,9 @@ html {
   // that's why we divide 10px by 16px to get 62.5%
   // So now 1rem = 10px
 
+  // ? 'rem' means the font size of the root element
+  // ? 'em' is relative to the size of its own element e.g. a you wanto specify a the font size of a list within a list
+
   @include respond(tab-land) {
     // width < 900?
     font-size: 55%; // 1 rem = 9px, 9/16 = 56.25%
